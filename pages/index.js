@@ -1,5 +1,16 @@
 import Head from "next/head";
+import Image from "next/image";
 
-export default function Home() {
-  return <div></div>;
-}
+const Index = () => (
+  <>
+    <Head>
+      <title>Nokz</title>
+      <meta
+        name="viewport"
+        content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1"
+      />
+    </Head>
+  </>
+);
+
+export default Index;
