@@ -73,7 +73,7 @@ hr.separator {
       left: 0;
       opacity: 0;
       transition: 0.2s;
-      color: red;
+      color: #e77f7f;
     }
 
     &::after {
@@ -82,7 +82,7 @@ hr.separator {
       right: 0;
       opacity: 0;
       transition: 0.2s;
-      color: red;
+      color: #e77f7f;
     }
 
     &:hover::before {
@@ -105,5 +105,65 @@ hr.separator {
       transition: 0.4s;
       color: rgb(214, 70, 70, 0.7) !important;
     }
+  }
+}
+
+.about {
+  border-left: 1px dashed gray;
+  border-right: 1px dashed gray;
+  margin-top: 50px;
+  color: white;
+
+  &__title {
+    font-weight: bold;
+  }
+
+  &__description {
+    color: gray;
+    margin-top: -10px;
+  }
+
+  &--close {
+    color: #e77f7f;
+    position: relative;
+    float: right;
+  }
+
+  &--close:hover {
+    color: rgb(214, 70, 70, 0.7);
+  }
+}
+
+.about-content {
+  border-left: 1px dashed gray;
+  border-right: 1px dashed gray;
+  margin-top: 25px;
+  color: white;
+  margin-bottom: 30px;
+
+  &--add-space {
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  &__company-link {
+    color: #e77f7f;
+  }
+
+  &__company-link:hover {
+    color: rgb(214, 70, 70, 0.7);
+  }
+
+  &__text {
+    color: #9a9a9a;
+  }
+
+  &__company {
+    color: #dedede;
+  }
+
+  &__position {
+    margin-top: -8px;
+    color: #9a9a9a;
   }
 }
