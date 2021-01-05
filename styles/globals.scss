@@ -7,3 +7,103 @@ body {
   margin: 0;
   font-family: sans-serif !important;
 }
+
+hr.separator {
+  max-width: 100px;
+  border-top: 1.5px dashed gray;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.menu-header {
+  &__title {
+    color: white;
+    font-weight: bold;
+  }
+
+  &__description {
+    color: gray;
+    margin-top: -10px;
+  }
+}
+
+.menu-nav {
+  color: white;
+  max-width: 400px;
+  display: flex;
+  margin: auto;
+
+  &__image {
+    border-right: dashed gray 1px;
+    border-left: dashed gray 1px;
+    flex: 1;
+  }
+
+  &__navs {
+    border-left: dashed gray 1px;
+    border-right: dashed gray 1px;
+    flex: 1;
+  }
+
+  &__ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__li {
+    margin-top: 10px;
+  }
+
+  &--effect {
+    color: white;
+    margin: 0;
+    text-decoration: none;
+    font-size: 14px;
+    position: relative;
+
+    &:hover {
+      color: #95a5a6;
+      text-decoration: none;
+    }
+
+    &::before {
+      content: "-";
+      position: absolute;
+      left: 0;
+      opacity: 0;
+      transition: 0.2s;
+      color: red;
+    }
+
+    &::after {
+      content: "-";
+      position: absolute;
+      right: 0;
+      opacity: 0;
+      transition: 0.2s;
+      color: red;
+    }
+
+    &:hover::before {
+      left: -10px;
+      opacity: 1;
+    }
+
+    &:hover::after {
+      right: -10px;
+      opacity: 1;
+    }
+  }
+}
+
+.menu-contacts {
+  &--effect {
+    color: gray;
+
+    &:hover {
+      transition: 0.4s;
+      color: rgb(214, 70, 70, 0.7) !important;
+    }
+  }
+}
