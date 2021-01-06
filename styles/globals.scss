@@ -173,3 +173,48 @@ hr.separator {
     color: #9a9a9a;
   }
 }
+
+.projects {
+  border-left: 1px dashed gray;
+  border-right: 1px dashed gray;
+  border-radius: 15px;
+  margin-top: 50px;
+  color: white;
+
+  &__title {
+    font-weight: bold;
+  }
+
+  &__description {
+    color: gray;
+    margin-top: -10px;
+  }
+
+  &--close {
+    color: #e77f7f;
+    position: relative;
+    float: right;
+  }
+
+  &--close:hover {
+    color: rgb(214, 70, 70, 0.7);
+  }
+}
+
+.projects-content {
+  border-left: 1px dashed gray;
+  border-right: 1px dashed gray;
+  border-radius: 15px;
+  margin-top: 25px;
+  color: white;
+  margin-bottom: 30px;
+  padding: 25px;
+
+  &--links {
+    color: #e77f7f;
+  }
+
+  &--links:hover {
+    color: rgb(214, 70, 70, 0.7);
+  }
+}
