@@ -1,3 +1,5 @@
+# Personal Website
+
 My portfolio site that is made using Next.js
 
 ## Setup
