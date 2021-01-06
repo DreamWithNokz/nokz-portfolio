@@ -35,7 +35,7 @@ const Projects = () => (
                 <Badge variant="secondary">Next.js</Badge>&nbsp;
                 <Badge variant="secondary">SCSS</Badge>&nbsp;
                 <Badge variant="secondary">Chart.js</Badge>&nbsp;
-                <Badge variant="secondary">Bootstrap 4</Badge>&nbsp;
+                <Badge variant="secondary">React Bootstrap</Badge>&nbsp;
                 <Badge variant="secondary">PWA</Badge>&nbsp;
                 <Badge variant="secondary">Styled Components</Badge>&nbsp;
                 <Badge variant="secondary">Youtube Data API</Badge>&nbsp;
