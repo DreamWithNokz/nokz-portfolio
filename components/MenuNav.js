@@ -13,8 +13,8 @@ const MenuNav = ({ imgSrc, onNavHover, onNavUnhover }) => {
         <div className="menu-nav__image">
           <Image src={imgSrc} alt="My Avatar" width={200} height={200} />
         </div>
-        <div className="menu-nav__navs">
-          <ul className="menu-nav__ul">
+        <div className="menu-nav__navs d-flex">
+          <ul className="menu-nav__ul w-100 align-self-center">
             <li className="menu-nav__li">
               <Link href="/about">
                 <a
