@@ -28,7 +28,7 @@ const Index = () => {
 
       <Container className="vh-100">
         <Row className="h-100 align-items-center">
-          <Col className="text-center">
+          <Col className="text-center flex">
             <MenuHeader title={"Nokz"} description={"< Software Engineer />"} />
             <hr className="separator" />
             <MenuNav imgSrc={menuImgSrc} onNavHover={handleNavHover} onNavUnhover={handleNavUnhover} />
