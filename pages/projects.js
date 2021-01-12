@@ -55,10 +55,10 @@ const Projects = () => (
               </Card.Link>
             </Card.Body>
           </Card>
-          <hr className="separator" />
         </Col>
         <Col sm></Col>
       </Row>
+      <hr className="separator" />
     </Container>
   </>
 );
