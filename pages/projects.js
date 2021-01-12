@@ -50,6 +50,7 @@ const Projects = () => (
           </Card.Link>
         </Card.Body>
       </Card>
+      <hr className="separator" />
     </Container>
   </>
 );
