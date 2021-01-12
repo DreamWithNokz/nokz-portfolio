@@ -5,6 +5,7 @@ import {
   FiLink,
   FiUser,
   FiBriefcase,
+  FiCpu,
   FiAward,
   FiMonitor,
 } from "react-icons/fi";
@@ -68,6 +69,40 @@ const About = () => (
           <Badge variant="secondary">Apr 2019 - May 2020</Badge>
         </h5>
         <p className="about__position">Junior Software Engineer</p>
+      </div>
+
+      <div className="about--add-space">
+        <h2 id="tech-stack">
+          <FiCpu /> Tech Stack
+        </h2>
+        <Badge pill variant="secondary">HTML/CSS</Badge>{' '}
+        <Badge pill variant="secondary">Javascript</Badge>{' '}
+        <Badge pill variant="secondary">Java</Badge>{' '}
+        <Badge pill variant="secondary">SQL</Badge>{' '}
+        <Badge pill variant="secondary">PHP</Badge>{' '}
+        <Badge pill variant="secondary">Spring Boot</Badge>{' '}
+        <Badge pill variant="secondary">React.js</Badge>{' '}
+        <Badge pill variant="secondary">Bootstrap</Badge>{' '}
+        <Badge pill variant="secondary">Next.js</Badge>{' '}
+        <Badge pill variant="secondary">Symfony</Badge>{' '}
+        <Badge pill variant="secondary">Semantic UI</Badge>{' '}
+        <Badge pill variant="secondary">VS Code</Badge>{' '}
+        <Badge pill variant="secondary">Vim/Neovim</Badge>{' '}
+        <Badge pill variant="secondary">Vagrant</Badge>{' '}
+        <Badge pill variant="secondary">Virtual Box</Badge>{' '}
+        <Badge pill variant="secondary">MySQL</Badge>{' '}
+        <Badge pill variant="secondary">PostgreSQL</Badge>{' '}
+        <Badge pill variant="secondary">Git</Badge>{' '}
+        <Badge pill variant="secondary">Thymeleaf</Badge>{' '}
+        <Badge pill variant="secondary">Twig</Badge>{' '}
+        <Badge pill variant="secondary">SCSS</Badge>{' '}
+        <Badge pill variant="secondary">Vercel</Badge>{' '}
+        <Badge pill variant="secondary">Chart.js</Badge>{' '}
+        <Badge pill variant="secondary">NPM</Badge>{' '}
+        <Badge pill variant="secondary">Yarn</Badge>{' '}
+        <Badge pill variant="secondary">Github</Badge>{' '}
+        <Badge pill variant="secondary">Youtube Data API</Badge>{' '}
+        <Badge pill variant="secondary">Manjaro Linux</Badge>{' '}
       </div>
 
       <div className="about--add-space">
