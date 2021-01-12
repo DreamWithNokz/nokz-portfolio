@@ -103,6 +103,7 @@ const About = () => (
         <Badge pill variant="secondary">Github</Badge>{' '}
         <Badge pill variant="secondary">Youtube Data API</Badge>{' '}
         <Badge pill variant="secondary">Manjaro Linux</Badge>{' '}
+        <Badge pill variant="secondary">Bash Shell</Badge>{' '}
       </div>
 
       <div className="about--add-space">
