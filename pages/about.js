@@ -84,6 +84,7 @@ const About = () => (
         <Badge pill variant="secondary">React.js</Badge>{' '}
         <Badge pill variant="secondary">Bootstrap</Badge>{' '}
         <Badge pill variant="secondary">Next.js</Badge>{' '}
+        <Badge pill variant="secondary">Gatsby.js</Badge>{' '}
         <Badge pill variant="secondary">Symfony</Badge>{' '}
         <Badge pill variant="secondary">Semantic UI</Badge>{' '}
         <Badge pill variant="secondary">VS Code</Badge>{' '}
