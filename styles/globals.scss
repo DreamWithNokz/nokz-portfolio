@@ -1,5 +1,8 @@
 @import "node_modules/bootstrap/scss/bootstrap";
 
+$base-color: #e77f7f;
+$accent-color: rgb(214, 70, 70, 0.7);
+
 html,
 body {
   background-color: #212529 !important;
@@ -77,7 +80,7 @@ hr.separator {
       left: 0;
       opacity: 0;
       transition: 0.2s;
-      color: #e77f7f;
+      color: $base-color;
     }
 
     &::after {
@@ -86,7 +89,7 @@ hr.separator {
       right: 0;
       opacity: 0;
       transition: 0.2s;
-      color: #e77f7f;
+      color: $base-color;
     }
 
     &:hover::before {
@@ -107,15 +110,16 @@ hr.separator {
 
     &:hover {
       transition: 0.4s;
-      color: rgb(214, 70, 70, 0.7) !important;
+      color: $accent-color !important;
     }
   }
 }
 
-.about {
+.page-header {
   border-left: 1px dashed gray;
   border-right: 1px dashed gray;
-  border-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
   margin-top: 50px;
   color: white;
 
@@ -129,35 +133,39 @@ hr.separator {
   }
 
   &--close {
-    color: #e77f7f;
+    color: $base-color;
     position: relative;
     float: right;
   }
 
   &--close:hover {
-    color: rgb(214, 70, 70, 0.7);
+    color: $accent-color;
   }
 }
 
-.about-content {
+.page-content {
   border-left: 1px dashed gray;
   border-right: 1px dashed gray;
-  border-radius: 15px;
-  margin-top: 25px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-top: 50px;
   color: white;
   margin-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
+.about {
   &--add-space {
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
   }
 
   &__company-link {
-    color: #e77f7f;
+    color: $base-color;
   }
 
   &__company-link:hover {
-    color: rgb(214, 70, 70, 0.7);
+    color: $accent-color;
   }
 
   &__text {
@@ -175,46 +183,15 @@ hr.separator {
 }
 
 .projects {
-  border-left: 1px dashed gray;
-  border-right: 1px dashed gray;
-  border-radius: 15px;
-  margin-top: 50px;
-  color: white;
-
-  &__title {
-    font-weight: bold;
+  &__entry {
+    margin: 15px;
   }
-
-  &__description {
-    color: gray;
-    margin-top: -10px;
-  }
-
-  &--close {
-    color: #e77f7f;
-    position: relative;
-    float: right;
-  }
-
-  &--close:hover {
-    color: rgb(214, 70, 70, 0.7);
-  }
-}
-
-.projects-content {
-  border-left: 1px dashed gray;
-  border-right: 1px dashed gray;
-  border-radius: 15px;
-  margin-top: 25px;
-  color: white;
-  margin-bottom: 30px;
-  padding: 25px;
 
   &--links {
-    color: #e77f7f;
+    color: $base-color;
   }
 
   &--links:hover {
-    color: rgb(214, 70, 70, 0.7);
+    color: $accent-color;
   }
 }
