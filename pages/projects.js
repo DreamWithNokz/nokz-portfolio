@@ -56,7 +56,6 @@ const Projects = () => (
             </Card.Body>
           </Card>
         </Col>
-        <Col sm></Col>
       </Row>
       <hr className="separator" />
     </Container>
