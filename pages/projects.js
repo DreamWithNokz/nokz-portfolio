@@ -1,8 +1,6 @@
 import Head from "next/head";
-import Link from "next/link";
-import Image from "next/image";
 import { Container, Col, Row, Card, Badge } from "react-bootstrap";
-import { FiXCircle, FiLink2, FiGithub } from "react-icons/fi";
+import { FiLink2, FiGithub } from "react-icons/fi";
 import PageHeader from "../components/PageHeader";
 
 const Projects = () => (
@@ -56,6 +54,49 @@ const Projects = () => (
             </Card.Body>
           </Card>
         </Col>
+        <Col sm>
+          <Card className="projects__entry bg-dark">
+            <Card.Body>
+              <Card.Title></Card.Title>
+              <Card.Subtitle className="mb-2 text-muted">
+              </Card.Subtitle>
+              <Card.Text>
+                Soon
+              </Card.Text>
+              <Card.Link
+                className="projects--links"
+                href="#"
+              >
+                App <FiLink2 />
+              </Card.Link>
+            </Card.Body>
+          </Card>
+        </Col>
+      </Row>
+      <h2 id="web-apps" className="text-center">
+        Theme
+      </h2>
+      <Row>
+        <Col sm>
+          <Card className="projects__entry bg-dark">
+            <Card.Body>
+              <Card.Title>Tokoyami Towa</Card.Title>
+              <Card.Subtitle className="mb-2 text-muted">
+                <Badge variant="secondary">Firefox</Badge>&nbsp;
+                <Badge variant="secondary">Firefox Color</Badge>&nbsp;
+              </Card.Subtitle>
+              <Card.Text>A character from Hololive Firefox theme</Card.Text>
+              <Card.Link
+                className="projects--links"
+                href="https://addons.mozilla.org/en-US/firefox/addon/towa-tokoyami/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search"
+                target="_blank"
+              >
+                App <FiLink2 />
+              </Card.Link>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col sm></Col>
       </Row>
       <hr className="separator" />
     </Container>
