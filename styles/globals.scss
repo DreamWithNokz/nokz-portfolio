@@ -154,6 +154,8 @@ hr.separator {
   margin-bottom: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-left: 45px !important;
+  padding-right: 45px !important;
 }
 
 .about {
@@ -185,7 +187,8 @@ hr.separator {
 
 .projects {
   &__entry {
-    margin: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 
   &--links {

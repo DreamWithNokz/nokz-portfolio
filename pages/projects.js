@@ -58,22 +58,16 @@ const Projects = () => (
           <Card className="projects__entry bg-dark">
             <Card.Body>
               <Card.Title></Card.Title>
-              <Card.Subtitle className="mb-2 text-muted">
-              </Card.Subtitle>
-              <Card.Text>
-                Soon
-              </Card.Text>
-              <Card.Link
-                className="projects--links"
-                href="#"
-              >
+              <Card.Subtitle className="mb-2 text-muted"></Card.Subtitle>
+              <Card.Text>Soon</Card.Text>
+              <Card.Link className="projects--links" href="#">
                 App <FiLink2 />
               </Card.Link>
             </Card.Body>
           </Card>
         </Col>
       </Row>
-      <h2 id="web-apps" className="text-center">
+      <h2 id="web-apps" className="mt-4 text-center">
         Theme
       </h2>
       <Row>
