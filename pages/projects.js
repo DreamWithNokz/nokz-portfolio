@@ -79,7 +79,7 @@ const Projects = () => (
                 <Badge variant="secondary">Firefox</Badge>&nbsp;
                 <Badge variant="secondary">Firefox Color</Badge>&nbsp;
               </Card.Subtitle>
-              <Card.Text>A character from Hololive Firefox theme.</Card.Text>
+              <Card.Text>A Firefox theme of a character from Hololive.</Card.Text>
               <Card.Link
                 className="projects--links"
                 href="https://addons.mozilla.org/en-US/firefox/addon/towa-tokoyami/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search"
