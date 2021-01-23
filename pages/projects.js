@@ -67,31 +67,6 @@ const Projects = () => (
           </Card>
         </Col>
       </Row>
-      <h2 id="web-apps" className="mt-4 text-center">
-        Themes
-      </h2>
-      <Row>
-        <Col sm>
-          <Card className="projects__entry bg-dark">
-            <Card.Body>
-              <Card.Title>Tokoyami Towa</Card.Title>
-              <Card.Subtitle className="mb-2 text-muted">
-                <Badge variant="secondary">Firefox</Badge>&nbsp;
-                <Badge variant="secondary">Firefox Color</Badge>&nbsp;
-              </Card.Subtitle>
-              <Card.Text>A Firefox theme of a character from Hololive.</Card.Text>
-              <Card.Link
-                className="projects--links"
-                href="https://addons.mozilla.org/en-US/firefox/addon/towa-tokoyami/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search"
-                target="_blank"
-              >
-                App <FiLink2 />
-              </Card.Link>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col sm></Col>
-      </Row>
       <hr className="separator" />
     </Container>
   </>
