@@ -4,7 +4,6 @@ import { FiXCircle } from "react-icons/fi";
 
 const PageHeader = ({ title, description }) => (
   <Container className="page-header">
-    <hr className="separator" />
     <Link href="/">
       <a className="page-header--close">
         <FiXCircle size={40} />

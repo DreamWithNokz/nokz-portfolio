@@ -19,7 +19,7 @@ const Projects = () => (
       <h2 id="web-apps" className="text-center">
         Web Apps
       </h2>
-      <Row>
+      <Row className="mx-1">
         <Col sm>
           <Card className="projects__entry bg-dark">
             <Card.Body>
@@ -67,7 +67,6 @@ const Projects = () => (
           </Card>
         </Col>
       </Row>
-      <hr className="separator" />
     </Container>
   </>
 );
