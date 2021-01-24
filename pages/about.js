@@ -156,10 +156,10 @@ const About = () => (
           Github
         </Badge>{" "}
         <Badge pill variant="secondary">
-          Youtube Data API
+          Rest API
         </Badge>{" "}
         <Badge pill variant="secondary">
-          Manjaro Linux
+          Linux
         </Badge>{" "}
         <Badge pill variant="secondary">
           Bash Shell

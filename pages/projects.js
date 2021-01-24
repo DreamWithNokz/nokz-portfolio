@@ -56,9 +56,7 @@ const Projects = () => (
         </Col>
         <Col sm className="my-2">
           <Card className="projects__entry bg-dark">
-            <Card.Body>
-              <Card.Title></Card.Title>
-              <Card.Subtitle className="mb-2 text-muted"></Card.Subtitle>
+            <Card.Body className="d-flex align-self-center align-items-center">
               <Card.Text>Soon</Card.Text>
             </Card.Body>
           </Card>

@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Nav, Navbar } from "react-bootstrap";
 
 const MenuNav = ({ imgSrc, onNavHover, onNavUnhover }) => {
   function handleNavHover(e) {
