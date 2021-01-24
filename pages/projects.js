@@ -15,12 +15,12 @@ const Projects = () => (
 
     <PageHeader title={"Projects"} description={"Works that I have made"} />
 
-    <Container className="page-content">
+    <Container className="py-3 page-content">
       <h2 id="web-apps" className="text-center">
         Web Apps
       </h2>
       <Row className="mx-1">
-        <Col sm>
+        <Col sm className="my-2">
           <Card className="projects__entry bg-dark">
             <Card.Body>
               <Card.Title>Hololive Youtube Subscriber Count</Card.Title>
@@ -54,15 +54,12 @@ const Projects = () => (
             </Card.Body>
           </Card>
         </Col>
-        <Col sm>
+        <Col sm className="my-2">
           <Card className="projects__entry bg-dark">
             <Card.Body>
               <Card.Title></Card.Title>
               <Card.Subtitle className="mb-2 text-muted"></Card.Subtitle>
               <Card.Text>Soon</Card.Text>
-              <Card.Link className="projects--links" href="#">
-                App <FiLink2 />
-              </Card.Link>
             </Card.Body>
           </Card>
         </Col>
