@@ -138,7 +138,7 @@ const About = () => (
           Twig
         </Badge>{" "}
         <Badge pill variant="secondary">
-          SCSS
+          SASS
         </Badge>{" "}
         <Badge pill variant="secondary">
           Vercel
