@@ -65,7 +65,7 @@ const About = () => (
             <FiLink />
           </a>
           &nbsp;
-          <Badge variant="secondary">Apr 2019 - May 2020</Badge>
+          <Badge variant="secondary">2019 - 2020</Badge>
         </h5>
         <p className="about__position">Junior Software Engineer</p>
       </div>
