@@ -182,44 +182,6 @@ const About = () => (
           </ul>
         </p>
       </div>
-
-      <div>
-        <h2 id="work-environment">
-          <FiMonitor /> Work Environment
-        </h2>
-        <p className="about__text">
-          <Badge variant="secondary">Hardware</Badge>
-          <ul>
-            <li>
-              <strong>Laptop:</strong> Lenovo Thinkpad x230
-            </li>
-            <li>
-              <strong>Mouse:</strong> Logitech MX Ergo
-            </li>
-            <li>
-              <strong>Tablet:</strong> One by Wacom
-            </li>
-            <li>
-              <strong>Powerbank:</strong> Dobe Powerbank TY-19203
-            </li>
-          </ul>
-          <Badge variant="secondary">Software</Badge>
-          <ul>
-            <li>
-              <strong>Code Editor:</strong> Neovim/VS Code
-            </li>
-            <li>
-              <strong>OS:</strong> Manjaro Linux
-            </li>
-            <li>
-              <strong>Window Manager:</strong> i3wm
-            </li>
-            <li>
-              <strong>Painting Tool:</strong> Krita/Aseprite
-            </li>
-          </ul>
-        </p>
-      </div>
     </Container>
   </>
 );
