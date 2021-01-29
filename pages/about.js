@@ -165,61 +165,6 @@ const About = () => (
           Bash Shell
         </Badge>{" "}
       </div>
-
-      <div className="about--add-space">
-        <h2 id="accomplishments">
-          <FiAward /> Accomplishments
-        </h2>
-        <p className="about__text">
-          <Badge variant="secondary">2018</Badge>
-          <ul>
-            <li>
-              Android ATC – Android Certified Application Developer V7: AND-401
-            </li>
-            <li>
-              Oracle Workforce Development Program – Java SE 8 Programming
-            </li>
-          </ul>
-        </p>
-      </div>
-
-      <div>
-        <h2 id="work-environment">
-          <FiMonitor /> Work Environment
-        </h2>
-        <p className="about__text">
-          <Badge variant="secondary">Hardware</Badge>
-          <ul>
-            <li>
-              <strong>Laptop:</strong> Lenovo Thinkpad x230
-            </li>
-            <li>
-              <strong>Mouse:</strong> Logitech MX Ergo
-            </li>
-            <li>
-              <strong>Tablet:</strong> One by Wacom
-            </li>
-            <li>
-              <strong>Powerbank:</strong> Dobe Powerbank TY-19203
-            </li>
-          </ul>
-          <Badge variant="secondary">Software</Badge>
-          <ul>
-            <li>
-              <strong>Code Editor:</strong> Neovim/VS Code
-            </li>
-            <li>
-              <strong>OS:</strong> Manjaro Linux
-            </li>
-            <li>
-              <strong>Window Manager:</strong> i3wm
-            </li>
-            <li>
-              <strong>Painting Tool:</strong> Krita/Aseprite
-            </li>
-          </ul>
-        </p>
-      </div>
     </Container>
   </>
 );
