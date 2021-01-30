@@ -122,25 +122,6 @@ const About = () => {
         </div>
 
         <div className="about--add-space">
-          <h2 id="work-history">
-            <FiBriefcase /> Work History
-          </h2>
-          <h5 className="about__company">
-            Bizwind Philippines, Inc.&nbsp;
-            <a
-              className="about__company-link"
-              href="http://www.bizwind.com/"
-              target="_blank"
-            >
-              <FiLink />
-            </a>
-            &nbsp;
-            <Badge variant="secondary">2019 - 2020</Badge>
-          </h5>
-          <p className="about__position">Junior Software Engineer</p>
-        </div>
-
-        <div style={{ marginBottom: "15px" }}>
           <h2 id="tech-stack">
             <FiCpu /> Tech Stack
           </h2>
@@ -160,6 +141,25 @@ const About = () => {
             Development
           </h5>
           {getDevelopments(developments)}
+        </div>
+
+        <div style={{ marginBottom: "15px" }}>
+          <h2 id="work-history">
+            <FiBriefcase /> Work History
+          </h2>
+          <h5 className="about__company">
+            Bizwind Philippines, Inc.&nbsp;
+            <a
+              className="about__company-link"
+              href="http://www.bizwind.com/"
+              target="_blank"
+            >
+              <FiLink />
+            </a>
+            &nbsp;
+            <Badge variant="secondary">2019 - 2020</Badge>
+          </h5>
+          <p className="about__position">Junior Software Engineer</p>
         </div>
       </Container>
     </>
