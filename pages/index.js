@@ -31,7 +31,11 @@ const Index = () => {
           <Col className="text-center">
             <MenuHeader title={"Nokz"} description={"< Software Engineer />"} />
             <hr className="separator" />
-            <MenuNav imgSrc={menuImgSrc} onNavHover={handleNavHover} onNavUnhover={handleNavUnhover} />
+            <MenuNav
+              imgSrc={menuImgSrc}
+              onNavHover={handleNavHover}
+              onNavUnhover={handleNavUnhover}
+            />
             <hr className="separator" />
             <MenuContacts />
           </Col>
