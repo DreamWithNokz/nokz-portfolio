@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { Container, Badge } from "react-bootstrap";
-import { FiLink, FiUser, FiBriefcase, FiCpu, FiAward } from "react-icons/fi";
+import { FiLink, FiUser, FiBriefcase, FiCpu } from "react-icons/fi";
 import PageHeader from "../components/PageHeader";
 
 const About = () => {
@@ -140,7 +140,7 @@ const About = () => {
           <p className="about__position">Junior Software Engineer</p>
         </div>
 
-        <div style={{marginBottom: "15px"}}>
+        <div style={{ marginBottom: "15px" }}>
           <h2 id="tech-stack">
             <FiCpu /> Tech Stack
           </h2>
