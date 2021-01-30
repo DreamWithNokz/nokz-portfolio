@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import { Container, Col, Row, Card, Badge } from "react-bootstrap";
 import { FiLink2, FiGithub } from "react-icons/fi";
 import PageHeader from "../components/PageHeader";
@@ -22,13 +23,20 @@ const Projects = () => (
       <Row className="mx-1">
         <Col sm className="my-2">
           <Card className="projects__entry bg-dark">
+            <Image
+              src="/projects-screenshot/hysc-webpage-screenshot.png"
+              alt="hysc-screenshot"
+              width={1354}
+              height={674}
+            />
             <Card.Body>
               <Card.Title>Hololive Youtube Subscriber Count</Card.Title>
               <Card.Subtitle className="mb-2 text-muted">
-                <Badge variant="secondary">Next.js</Badge>&nbsp;
-                <Badge variant="secondary">SCSS</Badge>&nbsp;
-                <Badge variant="secondary">Chart.js</Badge>&nbsp;
-                <Badge variant="secondary">React Bootstrap</Badge>&nbsp;
+                <Badge variant="secondary">JavaScript</Badge>&nbsp;
+                <Badge variant="secondary">NextJS</Badge>&nbsp;
+                <Badge variant="secondary">SASS</Badge>&nbsp;
+                <Badge variant="secondary">ChartJS</Badge>&nbsp;
+                <Badge variant="secondary">Bootstrap</Badge>&nbsp;
                 <Badge variant="secondary">PWA</Badge>&nbsp;
                 <Badge variant="secondary">Styled Components</Badge>&nbsp;
                 <Badge variant="secondary">Youtube Data API</Badge>&nbsp;
