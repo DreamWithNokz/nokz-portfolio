@@ -38,6 +38,11 @@ const MenuNav = ({ imgSrc, onNavHover, onNavUnhover }) => {
                 </a>
               </Link>
             </li>
+            <li className="menu-nav__li">
+              <Link href="/contact">
+                <a className="menu-nav--effect">CONTACT</a>
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

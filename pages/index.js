@@ -2,7 +2,6 @@ import { useState } from "react";
 import Head from "next/head";
 import MenuHeader from "../components/MenuHeader.js";
 import MenuNav from "../components/MenuNav.js";
-import MenuContacts from "../components/MenuContacts.js";
 import { Container, Row, Col } from "react-bootstrap";
 
 const Index = () => {
@@ -29,7 +28,10 @@ const Index = () => {
       <Container className="vh-100">
         <Row className="h-100 align-items-center">
           <Col className="text-center">
-            <MenuHeader title={"Nokz"} description={"< Software Developer />"} />
+            <MenuHeader
+              title={"Nokz"}
+              description={"< Software Developer />"}
+            />
             <hr className="separator" />
             <MenuNav
               imgSrc={menuImgSrc}
@@ -37,7 +39,6 @@ const Index = () => {
               onNavUnhover={handleNavUnhover}
             />
             <hr className="separator" />
-            <MenuContacts />
           </Col>
         </Row>
       </Container>
