@@ -2,6 +2,7 @@ import Head from "next/head";
 import { Container, Badge } from "react-bootstrap";
 import { FiLink, FiUser, FiBriefcase, FiCpu } from "react-icons/fi";
 import PageHeader from "../components/PageHeader";
+import { Row, Col } from "react-bootstrap";
 
 const About = () => {
   const frontends = [
@@ -125,22 +126,34 @@ const About = () => {
           <h2 id="tech-stack">
             <FiCpu /> Tech Stack
           </h2>
-          <h5 className="pt-3" style={{ color: "#dedede" }}>
-            Front-End
-          </h5>
-          {getFrontEnds(frontends)}
-          <h5 className="pt-3" style={{ color: "#dedede" }}>
-            Back-End
-          </h5>
-          {getBackEnds(backends)}
-          <h5 className="pt-3" style={{ color: "#dedede" }}>
-            Frameworks
-          </h5>
-          {getFrameworks(frameworks)}
-          <h5 className="pt-3" style={{ color: "#dedede" }}>
-            Development
-          </h5>
-          {getDevelopments(developments)}
+          <Row>
+            <Col sm>
+              <h5 className="pt-3" style={{ color: "#dedede" }}>
+                Front-End
+              </h5>
+              {getFrontEnds(frontends)}
+            </Col>
+            <Col sm>
+              <h5 className="pt-3" style={{ color: "#dedede" }}>
+                Back-End
+              </h5>
+              {getBackEnds(backends)}
+            </Col>
+          </Row>
+          <Row>
+            <Col sm>
+              <h5 className="pt-3" style={{ color: "#dedede" }}>
+                Frameworks
+              </h5>
+              {getFrameworks(frameworks)}
+            </Col>
+            <Col sm>
+              <h5 className="pt-3" style={{ color: "#dedede" }}>
+                Development
+              </h5>
+              {getDevelopments(developments)}
+            </Col>
+          </Row>
         </div>
 
         <div style={{ marginBottom: "15px" }}>
