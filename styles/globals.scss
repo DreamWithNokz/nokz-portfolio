@@ -196,3 +196,13 @@ hr.separator {
     color: $accent-color;
   }
 }
+
+@media (max-width: 600px) {
+  .page-header {
+    margin-top: 0px;
+  }
+
+  .page-content {
+    margin-bottom: 0px;
+  }
+}
