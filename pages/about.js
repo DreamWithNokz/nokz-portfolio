@@ -25,59 +25,23 @@ const About = () => {
   ];
   const developments = [
     "Git",
-    "Vagrant",
     "VS Code",
     "Vim",
     "Github",
     "Linux",
     "Vercel",
+    "Vagrant",
   ];
 
-  const getFrontEnds = (frontends) =>
-    frontends.map((frontend) => (
+  const getSkills = (skills) =>
+    skills.map((skill) => (
       <Badge
         pill
         style={{ marginLeft: "2px", marginRight: "2px" }}
         variant="secondary"
-        key={frontend}
+        key={skill}
       >
-        {frontend}
-      </Badge>
-    ));
-
-  const getBackEnds = (backends) =>
-    backends.map((backend) => (
-      <Badge
-        pill
-        style={{ marginLeft: "2px", marginRight: "2px" }}
-        variant="secondary"
-        key={backend}
-      >
-        {backend}
-      </Badge>
-    ));
-
-  const getFrameworks = (frameworks) =>
-    frameworks.map((framework) => (
-      <Badge
-        pill
-        style={{ marginLeft: "2px", marginRight: "2px" }}
-        variant="secondary"
-        key={framework}
-      >
-        {framework}
-      </Badge>
-    ));
-
-  const getDevelopments = (developments) =>
-    developments.map((development) => (
-      <Badge
-        pill
-        style={{ marginLeft: "2px", marginRight: "2px" }}
-        variant="secondary"
-        key={development}
-      >
-        {development}
+        {skill}
       </Badge>
     ));
 
@@ -124,20 +88,20 @@ const About = () => {
 
         <div className="about--add-space">
           <h2 id="tech-stack">
-            <FiCpu /> Tech Stack
+            <FiCpu /> Skills
           </h2>
           <Row>
             <Col sm>
               <h5 className="pt-3" style={{ color: "#dedede" }}>
                 Front-End
               </h5>
-              {getFrontEnds(frontends)}
+              {getSkills(frontends)}
             </Col>
             <Col sm>
               <h5 className="pt-3" style={{ color: "#dedede" }}>
                 Back-End
               </h5>
-              {getBackEnds(backends)}
+              {getSkills(backends)}
             </Col>
           </Row>
           <Row>
@@ -145,13 +109,13 @@ const About = () => {
               <h5 className="pt-3" style={{ color: "#dedede" }}>
                 Frameworks
               </h5>
-              {getFrameworks(frameworks)}
+              {getSkills(frameworks)}
             </Col>
             <Col sm>
               <h5 className="pt-3" style={{ color: "#dedede" }}>
                 Development
               </h5>
-              {getDevelopments(developments)}
+              {getSkills(developments)}
             </Col>
           </Row>
         </div>
