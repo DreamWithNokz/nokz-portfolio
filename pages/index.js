@@ -29,7 +29,7 @@ const Index = () => {
       <Container className="vh-100">
         <Row className="h-100 align-items-center">
           <Col className="text-center">
-            <MenuHeader title={"Nokz"} description={"< Software Engineer />"} />
+            <MenuHeader title={"Nokz"} description={"< Software Developer />"} />
             <hr className="separator" />
             <MenuNav
               imgSrc={menuImgSrc}
