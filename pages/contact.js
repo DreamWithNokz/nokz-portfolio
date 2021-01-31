@@ -4,16 +4,13 @@ import PageHeader from "../components/PageHeader";
 import { FiMail, FiTwitter, FiGithub, FiCoffee } from "react-icons/fi";
 
 const Contact = () => {
-  const getContact = (bg, text, icon, name, href, button) => (
-    <Card
-      bg={bg}
-      style={{ width: "150px", height: "150px" }}
-      className="mb-1"
-      text={text}
-    >
-      <Card.Body className="d-flex align-items-center align-self-center">
+  const getContact = (bg, text, icon, name, desc, href, button) => (
+    <Card bg={bg} style={{ width: "150px" }} className="mb-2" text={text}>
+      <Card.Header>
+        {icon} {name}
+      </Card.Header>
+      <Card.Body>
         <div style={{ display: "inline" }}>
-          {icon}
           <a href={href} style={{ textDecoration: "none" }} target="_blank">
             <Button
               style={{ borderRadius: "30px" }}
@@ -21,7 +18,7 @@ const Contact = () => {
               variant={button}
               block
             >
-              {name.toUpperCase()}
+              {desc}
             </Button>
           </a>
         </div>
@@ -41,14 +38,15 @@ const Contact = () => {
 
       <PageHeader title={"Contact"} description={"Get in touch with me"} />
 
-      <Container className="text-center page-content">
+      <Container className="page-content">
         <Row className="justify-content-center">
           <Col className="" xs="auto" md={3} lg={2}>
             {getContact(
               "dark",
               "light",
-              <FiMail size={50} />,
+              <FiMail size={20} />,
               "Email",
+              "Send Mail",
               "mailto:nmebron@protonmail.com",
               "light"
             )}
@@ -57,8 +55,9 @@ const Contact = () => {
             {getContact(
               "light",
               "dark",
-              <FiGithub size={50} />,
+              <FiGithub size={20} />,
               "Github",
+              "Follow Me",
               "https://github.com/DreamWithNokz",
               "dark"
             )}
@@ -67,8 +66,9 @@ const Contact = () => {
             {getContact(
               "primary",
               "light",
-              <FiTwitter size={50} />,
+              <FiTwitter size={20} />,
               "Twitter",
+              "Follow Me",
               "https://twitter.com/DreamWithNokz",
               "light"
             )}
@@ -77,8 +77,9 @@ const Contact = () => {
             {getContact(
               "info",
               "light",
-              <FiCoffee size={50} />,
+              <FiCoffee size={20} />,
               "Ko-fi",
+              "Support Me",
               "https://ko-fi.com/dreamwithnokz",
               "danger"
             )}
