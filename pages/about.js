@@ -132,6 +132,10 @@ const About = () => {
           <p className="about__position">Junior Software Engineer</p>
         </div>
       </Container>
+
+      <Container className="text-left footer">
+        &#169; 2021 dreamwithnokz
+      </Container>
     </>
   );
 };

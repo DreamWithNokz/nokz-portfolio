@@ -71,6 +71,10 @@ const Projects = () => (
         </Col>
       </Row>
     </Container>
+
+    <Container className="text-left footer">
+      &#169; 2021 dreamwithnokz
+    </Container>
   </>
 );
 
