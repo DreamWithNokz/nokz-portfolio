@@ -66,23 +66,16 @@ const About = () => {
             <FiUser /> Introduction
           </h2>
           <p className="about__text">
-            Hello! You may call me <strong>Nokz</strong>. It is the handle name
-            that I use everywhere as I don't really want to reveal my real name
-            too much online.
+            Hello! You may call me <strong>Nokz</strong>. It is the handle that
+            I use as I don't want to reveal my real name too much online.
           </p>
           <p className="about__text">
-            I have a professional experience working as a Software Engineer on a
-            company that mostly caters web development services for Japanese
-            clients. Currently, I mainly focus on using{" "}
-            <strong>Spring Boot</strong> for back-end development and{" "}
-            <strong>React JS</strong> for front-end development. Though I am
-            also open to use other technologies as well.
-          </p>
-          <p className="about__text">
-            On my free time, I usually configure my Linux environment, develop
-            some applications, and draw some random anime girls that you can see
-            on my Twitter. I play games as well but only if there is someone to
-            play with.
+            I have professional experience as a{" "}
+            <strong>Software Developer</strong> providing web development
+            services for different kinds of clients. On my free time, I usually
+            configure my Linux environment, develop some applications, and draw
+            some random stuffs. I play games as well but only if there is
+            someone to play with.
           </p>
         </div>
 
