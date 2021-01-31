@@ -104,17 +104,6 @@ hr.separator {
   }
 }
 
-.menu-contacts {
-  &--effect {
-    color: gray;
-
-    &:hover {
-      transition: 0.4s;
-      color: $accent-color !important;
-    }
-  }
-}
-
 .page-header {
   border-left: 1px solid gray;
   border-right: 1px solid gray;
