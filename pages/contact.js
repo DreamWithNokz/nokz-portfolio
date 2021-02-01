@@ -38,9 +38,9 @@ const Contact = () => {
 
       <PageHeader title={"Contact"} description={"Get in touch with me"} />
 
-      <Container className="page-content">
-        <Row className="justify-content-center">
-          <Col className="" xs="auto" md={3} lg={2}>
+      <Container className="d-flex align-items-center page-content">
+        <Row className="w-100 justify-content-center">
+          <Col xs="auto" md={3} lg={2}>
             {getContact(
               "dark",
               "light",
