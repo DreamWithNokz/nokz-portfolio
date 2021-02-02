@@ -30,7 +30,7 @@ const Index = () => {
           <Col className="text-center">
             <MenuHeader
               title={"Nokz"}
-              description={"< Software Developer />"}
+              description={"< Software Engineer />"}
             />
             <hr className="separator" />
             <MenuNav

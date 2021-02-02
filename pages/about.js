@@ -71,7 +71,7 @@ const About = () => {
           </p>
           <p className="about__text">
             I have professional experience as a{" "}
-            <strong>Software Developer</strong> providing web development
+            <strong>Software Engineer</strong> providing web development
             services for different kinds of clients. On my free time, I usually
             configure my Linux environment, develop some applications, and draw
             some random stuffs. I play games as well but only if there is
