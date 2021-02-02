@@ -31,8 +31,8 @@ const About = () => {
     "Linux",
     "Vercel",
     "Vagrant",
-    "Postman",
   ];
+  const testingTools = ["Postman", "Mocha", "JUnit"];
 
   const getSkills = (skills) =>
     skills.map((skill) => (
@@ -111,6 +111,15 @@ const About = () => {
               </h5>
               {getSkills(developments)}
             </Col>
+          </Row>
+          <Row>
+            <Col sm>
+              <h5 className="pt-3" style={{ color: "#dedede" }}>
+                Testing Tools
+              </h5>
+              {getSkills(testingTools)}
+            </Col>
+            <Col sm></Col>
           </Row>
         </div>
 
