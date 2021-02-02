@@ -31,6 +31,7 @@ const About = () => {
     "Linux",
     "Vercel",
     "Vagrant",
+    "Postman",
   ];
 
   const getSkills = (skills) =>
