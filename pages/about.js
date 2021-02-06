@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { Container, Badge } from "react-bootstrap";
-import { FiLink, FiUser, FiBriefcase, FiCpu } from "react-icons/fi";
+import { FiUser, FiCpu } from "react-icons/fi";
 import PageHeader from "../components/PageHeader";
 import { Row, Col } from "react-bootstrap";
 
@@ -75,12 +75,11 @@ const About = () => {
             <strong>Software Engineer</strong> providing web development
             services for different kinds of clients. On my free time, I usually
             configure my Linux environment, develop some applications, and draw
-            some random stuffs. I play games as well but only if there is
-            someone to play with.
+            some random stuffs.
           </p>
         </div>
 
-        <div className="about--add-space">
+        <div style={{ marginBottom: "15px" }}>
           <h2 id="tech-stack">
             <FiCpu /> Skills
           </h2>
@@ -121,25 +120,6 @@ const About = () => {
             </Col>
             <Col sm></Col>
           </Row>
-        </div>
-
-        <div style={{ marginBottom: "15px" }}>
-          <h2 id="work-history">
-            <FiBriefcase /> Work History
-          </h2>
-          <h5 className="about__company">
-            Bizwind Philippines, Inc.&nbsp;
-            <a
-              className="about__company-link"
-              href="http://www.bizwind.com/"
-              target="_blank"
-            >
-              <FiLink />
-            </a>
-            &nbsp;
-            <Badge variant="secondary">2019 - 2020</Badge>
-          </h5>
-          <p className="about__position">Junior Software Engineer</p>
         </div>
       </Container>
 
