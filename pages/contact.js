@@ -1,7 +1,7 @@
 import Head from "next/head";
-import { Container, Row, Col, Card, Button } from "react-bootstrap";
+import { Container, Row, Card, Button } from "react-bootstrap";
 import PageHeader from "../components/PageHeader";
-import { FiMail, FiTwitter, FiGithub, FiCoffee } from "react-icons/fi";
+import { FiMail, FiTwitter, FiGithub } from "react-icons/fi";
 
 const Contact = () => {
   const getContact = (bg, text, icon, name, desc, href, button) => (
@@ -66,15 +66,6 @@ const Contact = () => {
             "Follow Me",
             "https://twitter.com/DreamWithNokz",
             "light"
-          )}
-          {getContact(
-            "info",
-            "light",
-            <FiCoffee size={20} />,
-            "Ko-fi",
-            "Support Me",
-            "https://ko-fi.com/dreamwithnokz",
-            "danger"
           )}
         </Row>
       </Container>
