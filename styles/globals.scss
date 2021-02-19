@@ -104,6 +104,28 @@ hr.separator {
   }
 }
 
+.menu-footer {
+  margin-top: 15px;
+  margin-bottom: 10px;
+
+  &__title {
+    margin: 0;
+    font-size: 12px;
+    color: gray;
+  }
+
+  &__link {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: gray;
+  }
+
+  &__link:hover {
+    color: $accent-color;
+    transition: 0.3s;
+  }
+}
+
 .page-header {
   border-left: 1px solid gray;
   border-right: 1px solid gray;
