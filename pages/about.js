@@ -2,6 +2,7 @@ import Head from "next/head";
 import { Container, Badge } from "react-bootstrap";
 import { FiUser, FiCpu } from "react-icons/fi";
 import PageHeader from "../components/PageHeader";
+import PageFooter from "../components/PageFooter";
 import { Row, Col } from "react-bootstrap";
 
 const About = () => {
@@ -123,9 +124,7 @@ const About = () => {
         </div>
       </Container>
 
-      <Container className="text-left footer">
-        &#169; 2021 dreamwithnokz
-      </Container>
+      <PageFooter />
     </>
   );
 };

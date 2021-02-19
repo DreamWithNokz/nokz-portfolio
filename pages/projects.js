@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Container, Col, Row, Card, Badge } from "react-bootstrap";
 import { FiLink2, FiGithub } from "react-icons/fi";
 import PageHeader from "../components/PageHeader";
+import PageFooter from "../components/PageFooter";
 
 const Projects = () => (
   <>
@@ -72,9 +73,7 @@ const Projects = () => (
       </Row>
     </Container>
 
-    <Container className="text-left footer">
-      &#169; 2021 dreamwithnokz
-    </Container>
+    <PageFooter />
   </>
 );
 
