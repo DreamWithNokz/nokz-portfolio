@@ -13,7 +13,15 @@ import PageFooter from "../components/PageFooter";
 import { Row, Col } from "react-bootstrap";
 
 const About = () => {
-  const FRONTENDS = ["HTML", "CSS", "SASS", "JavaScript", "Thymeleaf", "Twig"];
+  const FRONTENDS = [
+    "HTML",
+    "CSS",
+    "SASS",
+    "JavaScript",
+    "Styled Components",
+    "Thymeleaf",
+    "Twig",
+  ];
   const BACKENDS = ["Java", "PHP", "PostgreSQL", "MySQL"];
   const FRAMEWORKS = [
     "ReactJS",
