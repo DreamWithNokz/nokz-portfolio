@@ -170,7 +170,7 @@ const About = () => {
           <h2 id="accomplishments" className="mb-4">
             <FiAward /> Accomplishments
           </h2>
-          <p className="about__text">
+          <div className="about__text">
             <Badge variant="secondary">2018</Badge>
             <ul>
               <li>
@@ -181,7 +181,7 @@ const About = () => {
                 Oracle Workforce Development Program – Java SE 8 Programming
               </li>
             </ul>
-          </p>
+          </div>
         </div>
 
         <div>
