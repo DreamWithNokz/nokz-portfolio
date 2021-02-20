@@ -18,6 +18,16 @@ hr.separator {
   margin-bottom: 0;
 }
 
+.link {
+  &--red-base {
+    color: $base-color;
+  }
+
+  &--red-base:hover {
+    color: $accent-color;
+  }
+}
+
 .menu-header {
   &__title {
     color: white;
