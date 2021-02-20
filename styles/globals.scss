@@ -222,6 +222,15 @@ hr.separator {
     color: lightgray;
   }
 
+  &__name {
+    color: $base-color;
+  }
+
+  &__name:hover {
+    color: $accent-color;
+    cursor: pointer;
+  }
+
   &__links {
     font-size: 20px;
   }
