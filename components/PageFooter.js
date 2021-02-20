@@ -3,7 +3,7 @@ import { AiFillTwitterCircle, AiFillGithub } from "react-icons/ai";
 
 const PageHeader = () => (
   <Container className="footer">
-    <span className="footer__copyright">&#169; 2021 dreamwithnokz</span>
+    <span className="footer__copyright">&#169; 2020 - 2021 dreamwithnokz</span>
     <span className="float-right footer__links">
       <a href="https://twitter.com/DreamWithNokz" target="_blank" className="footer__link">
         <AiFillTwitterCircle />
