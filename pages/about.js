@@ -94,7 +94,10 @@ const About = () => {
               className="link--red-base font-weight-bold"
               target="_blank"
             >
-              repository <FiLink />
+              repository
+              <sup>
+                <FiLink />
+              </sup>
             </a>
             . It contains the <strong>dotfiles</strong> that I use as well as a{" "}
             <strong>script</strong> that I made to automatically back-up and
@@ -106,7 +109,10 @@ const About = () => {
               className="link--red-base font-weight-bold"
               target="_blank"
             >
-              here <FiLink />
+              here
+              <sup>
+                <FiLink />
+              </sup>
             </a>
             . You may use them however you please.
           </p>
@@ -160,13 +166,15 @@ const About = () => {
             <FiBriefcase /> Work History
           </h2>
           <h5 className="about__company">
-            Bizwind Philippines, Inc.&nbsp;
             <a
               className="about__company-link"
               href="http://www.bizwind.com/"
               target="_blank"
             >
-              <FiLink />
+              Bizwind Philippines, Inc.
+              <sup>
+                <FiLink />
+              </sup>
             </a>
             &nbsp;
             <Badge variant="secondary">2019 - 2020</Badge>
