@@ -1,4 +1,4 @@
-import { AiFillMail, AiFillTwitterCircle, AiFillGithub } from "react-icons/ai";
+import { AiFillMail, AiFillTwitterCircle, AiFillGithub } from 'react-icons/ai';
 
 const MenuFooter = () => (
   <div className="menu-footer">
@@ -10,6 +10,7 @@ const MenuFooter = () => (
       href="https://twitter.com/DreamWithNokz"
       className="menu-footer__link"
       target="_blank"
+      rel="noreferrer noopener"
     >
       <AiFillTwitterCircle size={40} />
     </a>
@@ -17,6 +18,7 @@ const MenuFooter = () => (
       href="https://github.com/DreamWithNokz"
       className="menu-footer__link"
       target="_blank"
+      rel="noreferrer noopener"
     >
       <AiFillGithub size={40} />
     </a>
