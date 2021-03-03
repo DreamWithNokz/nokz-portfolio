@@ -1,9 +1,9 @@
-import Head from "next/head";
-import Image from "next/image";
-import { Container, Col, Row, Card, Badge } from "react-bootstrap";
-import { FiLink2, FiGithub } from "react-icons/fi";
-import PageHeader from "../components/PageHeader";
-import PageFooter from "../components/PageFooter";
+import Head from 'next/head';
+import Image from 'next/image';
+import { Container, Col, Row, Card, Badge } from 'react-bootstrap';
+import { FiLink2, FiGithub } from 'react-icons/fi';
+import PageHeader from '../components/PageHeader';
+import PageFooter from '../components/PageFooter';
 
 const Projects = () => (
   <>
@@ -15,7 +15,7 @@ const Projects = () => (
       />
     </Head>
 
-    <PageHeader title={"Projects"} description={"Works that I have made"} />
+    <PageHeader title={'Projects'} description={'Works that I have made'} />
 
     <Container className="py-3 page-content">
       <h2 id="web-apps" className="text-center">
@@ -65,8 +65,39 @@ const Projects = () => (
         </Col>
         <Col sm className="my-2">
           <Card className="projects__entry bg-dark">
-            <Card.Body className="d-flex align-self-center align-items-center">
-              <Card.Text>Soon</Card.Text>
+            <Image
+              src="/projects-screenshot/vtuberms-webpage-screenshot.png"
+              alt="vtuberms-screenshot"
+              width={1354}
+              height={674}
+            />
+            <Card.Body>
+              <Card.Title>VTuber Minecraft Skin</Card.Title>
+              <Card.Subtitle className="mb-2 text-muted">
+                <Badge variant="secondary">JavaScript</Badge>&nbsp;
+                <Badge variant="secondary">NextJS</Badge>&nbsp;
+                <Badge variant="secondary">SASS</Badge>&nbsp;
+                <Badge variant="secondary">Bootstrap</Badge>&nbsp;
+                <Badge variant="secondary">Styled Components</Badge>&nbsp;
+              </Card.Subtitle>
+              <Card.Text>
+                A web app that lets you see the current skin that VTubers use in
+                Minecraft.
+              </Card.Text>
+              <Card.Link
+                className="projects--links"
+                href="https://vtuberms.vercel.app"
+                target="_blank"
+              >
+                App <FiLink2 />
+              </Card.Link>
+              <Card.Link
+                className="projects--links"
+                href="https://github.com/DreamWithNokz/vtuber-minecraft-skins"
+                target="_blank"
+              >
+                Github <FiGithub />
+              </Card.Link>
             </Card.Body>
           </Card>
         </Col>
