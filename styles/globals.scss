@@ -1,4 +1,4 @@
-@import "node_modules/bootstrap/scss/bootstrap";
+@import '~bootstrap/dist/css/bootstrap.min.css';
 
 $base-color: #e77f7f;
 $accent-color: rgb(214, 70, 70, 0.7);
@@ -87,7 +87,7 @@ hr.separator {
     }
 
     &::before {
-      content: "-";
+      content: '-';
       position: absolute;
       left: 0;
       opacity: 0;
@@ -96,7 +96,7 @@ hr.separator {
     }
 
     &::after {
-      content: "-";
+      content: '-';
       position: absolute;
       right: 0;
       opacity: 0;
@@ -247,7 +247,7 @@ hr.separator {
 
   &__link {
     color: gray;
-    margin-left: 5px
+    margin-left: 5px;
   }
 
   &__link:hover {

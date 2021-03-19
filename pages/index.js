@@ -20,7 +20,7 @@ const Index = () => {
     <>
       <Head>
         <title>Nokz</title>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta
           name="Description"
           content="Nokz's personal website that tells a little bit about the developer and showcasing some of the projects developed."
