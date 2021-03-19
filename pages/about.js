@@ -1,5 +1,5 @@
-import Head from "next/head";
-import { Container, Badge } from "react-bootstrap";
+import Head from 'next/head';
+import { Container, Badge } from 'react-bootstrap';
 import {
   FiUser,
   FiCpu,
@@ -7,47 +7,47 @@ import {
   FiMonitor,
   FiBriefcase,
   FiLink,
-} from "react-icons/fi";
-import PageHeader from "../components/PageHeader";
-import PageFooter from "../components/PageFooter";
-import { Row, Col } from "react-bootstrap";
+} from 'react-icons/fi';
+import PageHeader from '../components/PageHeader';
+import PageFooter from '../components/PageFooter';
+import { Row, Col } from 'react-bootstrap';
 
 const About = () => {
   const FRONTENDS = [
-    "HTML",
-    "CSS",
-    "SASS",
-    "JavaScript",
-    "Styled Components",
-    "Thymeleaf",
-    "Twig",
+    'HTML',
+    'CSS',
+    'SASS',
+    'JavaScript',
+    'Styled Components',
+    'Thymeleaf',
+    'Twig',
   ];
-  const BACKENDS = ["Java", "PHP", "PostgreSQL", "MySQL"];
+  const BACKENDS = ['Java', 'PHP', 'PostgreSQL', 'MySQL'];
   const FRAMEWORKS = [
-    "ReactJS",
-    "NextJS",
-    "GatsbyJS",
-    "Spring Boot",
-    "Symfony",
-    "Semantic UI",
-    "Material UI",
+    'ReactJS',
+    'NextJS',
+    'GatsbyJS',
+    'Spring Boot',
+    'Symfony',
+    'Semantic UI',
+    'Material UI',
   ];
   const DEVELOPMENTS = [
-    "Git",
-    "VS Code",
-    "Vim",
-    "Github",
-    "Linux",
-    "Vercel",
-    "Vagrant",
+    'Git',
+    'VS Code',
+    'Vim',
+    'Github',
+    'Linux',
+    'Vercel',
+    'Vagrant',
   ];
-  const TESTING_TOOLS = ["Postman", "Mocha", "JUnit"];
+  const TESTING_TOOLS = ['Postman', 'Mocha', 'JUnit'];
 
   const getSkills = (skills) =>
     skills.map((skill) => (
       <Badge
         pill
-        style={{ marginLeft: "2px", marginRight: "2px" }}
+        style={{ marginLeft: '2px', marginRight: '2px' }}
         variant="secondary"
         key={skill}
       >
@@ -59,6 +59,7 @@ const About = () => {
     <>
       <Head>
         <title>Nokz | About</title>
+        <meta name="Description" content="Page more about me." />
         <meta
           name="viewport"
           content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1"
@@ -66,8 +67,8 @@ const About = () => {
       </Head>
 
       <PageHeader
-        title={"About"}
-        description={"Get to know some stuffs about me"}
+        title={'About'}
+        description={'Get to know some stuffs about me'}
       />
 
       <Container className="page-content">
@@ -80,7 +81,7 @@ const About = () => {
             I use, as I don't want to reveal my real name too much online.
           </p>
           <p className="about__text">
-            I have professional experience as a{" "}
+            I have professional experience as a{' '}
             <strong>Software Engineer</strong> providing web development
             services for different kinds of clients. On my free time, I usually
             configure my Linux environment, develop some applications, and draw
@@ -88,7 +89,7 @@ const About = () => {
           </p>
           <p className="about__text">
             If you're interested to know a little bit about the configuration of
-            my <strong>Linux environment</strong>, you may check it here in this{" "}
+            my <strong>Linux environment</strong>, you may check it here in this{' '}
             <a
               href="https://github.com/DreamWithNokz/personal-dotfiles"
               className="link--red-base font-weight-bold"
@@ -99,11 +100,11 @@ const About = () => {
                 <FiLink />
               </sup>
             </a>
-            . It contains the <strong>dotfiles</strong> that I use as well as a{" "}
+            . It contains the <strong>dotfiles</strong> that I use as well as a{' '}
             <strong>script</strong> that I made to automatically back-up and
-            restore the config files. I've also uploaded the{" "}
+            restore the config files. I've also uploaded the{' '}
             <strong>source code</strong> of this website in which you can find
-            in{" "}
+            in{' '}
             <a
               href="https://github.com/DreamWithNokz/personal-website"
               className="link--red-base font-weight-bold"
@@ -124,13 +125,13 @@ const About = () => {
           </h2>
           <Row>
             <Col sm>
-              <h5 className="pt-3" style={{ color: "#dedede" }}>
+              <h5 className="pt-3" style={{ color: '#dedede' }}>
                 Front-End
               </h5>
               {getSkills(FRONTENDS)}
             </Col>
             <Col sm>
-              <h5 className="pt-3" style={{ color: "#dedede" }}>
+              <h5 className="pt-3" style={{ color: '#dedede' }}>
                 Back-End
               </h5>
               {getSkills(BACKENDS)}
@@ -138,13 +139,13 @@ const About = () => {
           </Row>
           <Row>
             <Col sm>
-              <h5 className="pt-3" style={{ color: "#dedede" }}>
+              <h5 className="pt-3" style={{ color: '#dedede' }}>
                 Frameworks
               </h5>
               {getSkills(FRAMEWORKS)}
             </Col>
             <Col sm>
-              <h5 className="pt-3" style={{ color: "#dedede" }}>
+              <h5 className="pt-3" style={{ color: '#dedede' }}>
                 Development
               </h5>
               {getSkills(DEVELOPMENTS)}
@@ -152,7 +153,7 @@ const About = () => {
           </Row>
           <Row>
             <Col sm>
-              <h5 className="pt-3" style={{ color: "#dedede" }}>
+              <h5 className="pt-3" style={{ color: '#dedede' }}>
                 Testing Tools
               </h5>
               {getSkills(TESTING_TOOLS)}

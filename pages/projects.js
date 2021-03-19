@@ -10,6 +10,10 @@ const Projects = () => (
     <Head>
       <title>Nokz | Projects</title>
       <meta
+        name="Description"
+        content="Portfolio that showcases what I can do."
+      />
+      <meta
         name="viewport"
         content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1"
       />
