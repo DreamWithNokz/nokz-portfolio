@@ -1,4 +1,4 @@
-# Personal Website
+# Nokz Portfolio
 
 My portfolio site that is made using Next.js
 
